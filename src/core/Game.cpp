@@ -7,6 +7,8 @@ void Game::init(std::string title){
 	Window.create(sf::VideoMode(640, 480), title);
 	_graphics = new Graphics();
 	_graphics->init(this);
+
+	 Window.setFramerateLimit(30);
 }
 
 Game::~Game(){
