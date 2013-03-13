@@ -7,8 +7,6 @@ void Game::init(std::string title){
 	Window.create(sf::VideoMode(640, 480), title);
 	_graphics = new Graphics();
 	_graphics->init(this);
-
-	 Window.setFramerateLimit(30);
 }
 
 Game::~Game(){
@@ -43,7 +41,11 @@ i = Window.getSize().x;
 		return false;
 }
 void Game::update(){
-	
+	//Test
+	/*sf::Sprite Sprite;
+	Sprite = _graphics->loadSprite("Base9.png");
+	Window.draw(Sprite);
+	*/
 }
 void Game::render(){
 	Window.display();
