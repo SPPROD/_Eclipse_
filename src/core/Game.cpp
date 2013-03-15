@@ -1,4 +1,4 @@
-#include "Game.h"
+#include "C:\Users\CHAKIB_2\Documents\GitHub\_Eclipse_\include\core\Game.h"
 
 void Game::init(std::string title){
 	//Configuration struct with a lot of window properties (window size, full screen...)

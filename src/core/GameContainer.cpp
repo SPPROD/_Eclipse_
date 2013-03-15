@@ -1,5 +1,5 @@
-#include "GameContainer.h"
-#include "Graphics.h"
+#include "C:\Users\CHAKIB_2\Documents\GitHub\_Eclipse_\include\core\GameContainer.h"
+#include "C:\Users\CHAKIB_2\Documents\GitHub\_Eclipse_\include\core\Graphics.h"
 
 GameContainer::GameContainer(){
 	_game = new Game;

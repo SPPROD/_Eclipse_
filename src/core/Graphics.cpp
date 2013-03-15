@@ -1,5 +1,5 @@
 #pragma once 
-#include "Graphics.h"
+#include "C:\Users\CHAKIB_2\Documents\GitHub\_Eclipse_\include\core\Graphics.h"
 
 void Graphics::init(Game *game){
 	_game = game;
